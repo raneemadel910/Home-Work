@@ -8,9 +8,7 @@ void main(List<String> args) {
   int def = 0100000;
   phoneNumber ?? def;
 
-  if (phoneNumber == null) {
-    print(def);
-    phoneNumber = 01222222222;
-    print(phoneNumber.toString().length);
-  }
+  print(def);
+  phoneNumber = 01222222222;
+  print(phoneNumber.toString().length);
 }

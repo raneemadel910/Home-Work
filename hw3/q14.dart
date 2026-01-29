@@ -5,13 +5,9 @@
 
 void main(List<String> args) {
   List<int> items = [100,20];
-  if (items == null) {
-    print('Noscores');
-  } else {
-    int sum = items[0] + items[items.length - 1];
-    print(sum);
-    if (sum >= 40) {
-      print(true);
-    }
+  int sum = items[0] + items[items.length - 1];
+  print(sum);
+  if (sum >= 40) {
+    print(true);
   }
 }
